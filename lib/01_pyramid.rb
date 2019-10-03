@@ -5,7 +5,7 @@ def half_pyramid
 	print "> "
 	#recupere la valeur entree par l'utilisateur 
 	etage = gets.to_i
-#verifie si l'etage est entre 5-25 
+    #verifie si l'etage est entre 5-25 
 	if etage >= 5 && etage <= 25
 	    puts "Voici la pyramide:"
 	    #affiche les etages
@@ -40,7 +40,6 @@ end
  full_pyramid
 
 # 2.2.3. Alexandrie, Alexandra
-
 def wtf_pyramid
 	puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?"
 	print "> "
